@@ -1,0 +1,15 @@
+class students:
+	def __init__(self,name,eng,hin,cse):
+		self.name = name
+		self.eng = eng
+		self.hin = hin
+		self.cse = cse
+
+data = []
+
+data.append(students('suresh', 86, 59, 72))
+data.append(students('ramesh', 36, 96, 52))
+data.append(students('mukesh', 79, 82, 36))
+
+for obj in data:
+	print(obj.name, obj.eng, obj.hin, obj.cse, sep =' ')
