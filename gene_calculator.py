@@ -46,3 +46,4 @@ for x in range(0, s):
 		z += 1"""
 	geneChecker(d,x,first,last,genes,health)
 print(totalGeneHealth)
+print()
